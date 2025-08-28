@@ -24,9 +24,9 @@ int main()
         }
 
         // Ascending the elements in b array
-        i=0;
-        int j=n-1;
-        while(i<j)
+        i = 0;
+        int j = n - 1;
+        while (i < j)
         {
             if (b[i] > b[j])
             {
@@ -38,19 +38,18 @@ int main()
             }
         }
 
-for (i = 0; i < n; i++)
+        for (i = 0; i < n; i++)
         {
             printf("%d ", b[i]);
         }
 
-
         // SUBTRACTION in c:
-    //     for (int i = 0; i < n; i++)
-    //     {
-    //         printf("%d ", c[i] = abs(a[i] - b[i]));
-    //     }
-    //     printf("\n");
-    // }
+        //     for (int i = 0; i < n; i++)
+        //     {
+        //         printf("%d ", c[i] = abs(a[i] - b[i]));
+        //     }
+        //     printf("\n");
+        // }
     }
     return 0;
 }
